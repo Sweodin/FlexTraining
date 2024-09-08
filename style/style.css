@@ -1,0 +1,146 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  color: greenyellow;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 90px;
+  margin-left: 96px;
+  margin-top: 90px;
+  margin-right: 96px;
+  gap: 20px;
+}
+
+/* First big box container */
+
+.container-1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 468px;
+  height: 160px;
+  background-color: #0cff18;
+  padding: 20px;
+  border: 2px solid #f80101;
+}
+
+/* Second big box container */
+
+.container-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 468px;
+  height: 160px;
+  background-color: #0cff18;
+  padding: 20px;
+  border: 2px solid #f80101;
+}
+/* Third big box container */
+
+.container-3 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 468px;
+  height: 160px;
+  background-color: #0cff18;
+  padding: 20px;
+  border: 2px solid #f80101;
+}
+/* Forth big box container */
+
+.container-4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 468px;
+  height: 160px;
+  background-color: #0cff18;
+  padding: 20px;
+  border: 2px solid #f80101;
+}
+/* Fifth big box container */
+
+.container-5 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 468px;
+  height: 160px;
+  background-color: #0cff18;
+  padding: 20px;
+  border: 2px solid #f80101;
+}
+/* Sixth big box container */
+
+.container-6 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 468px;
+  height: 160px;
+  background-color: #0cff18;
+  padding: 20px;
+  border: 2px solid #f80101;
+}
+/* Small Box one */
+.container-1 .box,
+.container-3 .box,
+.container-4 .box {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  background-color: #01b7ff;
+  border: 2px solid #d9ff03;
+}
+/* Small Box two */
+.container-2 .box {
+  margin: 5px;
+  height: 150px;
+  width: 100px;
+  background-color: #01b7ff;
+  border: 2px solid #d9ff03;
+}
+
+/* Small Box five */
+.container-5 .box {
+  margin: 5px;
+  height: 150px;
+  width: 100px;
+  background-color: #01b7ff;
+  border: 2px solid #d9ff03;
+}
+/* Small Box six */
+.container-6 .box {
+  margin: 5px;
+  height: 100px;
+  width: 100px;
+  background-color: #01b7ff;
+  border: 2px solid #d9ff03;
+}
+/* Moved individual boxes with childs */
+
+.container-4 .box:nth-child(1),
+.container-4 .box:nth-child(2) {
+  align-self: flex-start;
+}
+
+.container-4 .box:nth-child(3) {
+  align-self: flex-end;
+}
+
+.container-5 .box:nth-child(2) {
+  height: 100px;
+}
+
+.container-6 .box:nth-child(2) {
+  width: 150px;
+}
+
+
+
